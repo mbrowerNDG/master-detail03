@@ -1,0 +1,11 @@
+<mat-card-header>
+    <mat-card-title>{{product.name}}</mat-card-title>
+    <mat-card-subtitle>{{product.type}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content style="margin-left:16px; margin-right: 16px;">
+      {{product.description}}
+  </mat-card-content>
+  <mat-card-footer style="margin-left:16px; margin-right: 16px;">
+      Price: {{product.price | currency}}
+      {{product.status}}
+  </mat-card-footer>
